@@ -7,11 +7,21 @@
 * Nome: Allana Silva de Mendonça Ataíde
 * Nome: Amanda da Silva Lima
 
-### Tabela de IPs e nomes hosts
-![WhatsApp Image 2022-10-06 at 10 14 29](https://user-images.githubusercontent.com/108026050/194365410-8fba9955-f2f7-403b-b668-5ed77fc98eae.jpeg)"<br/>
+Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 
+```
+-------------------------------------------------------------------------------------------------
+|  DESCRICAO  |  IP               |   hostname        |          FQDN           |     aliase    |
+-------------------------------------------------------------------------------------------------
+| VM1-PC1     | 192.168.23.101/28  |   srv-vm1-pc1     | lan1.grupo7.ifalara.net |      ara      |
+| VM2-PC1     | 192.168.23.102/28  |   srv-vm2-pc1     | lan2.grupo7.ifalara.net |      aar      |
+| VM1-PC2     | 192.168.23.105/28  |   srv-vm1-pc3     | vm3-ifalara.net         |      raa      |
+| VM2-PC2     | 192.168.23.106/28  |   srv-vm2-pc3     | vm4-ifalara.net         |      rrr      |
+| VM1-PC3     | 192.168.23.107/28  |   srv-vm1-pc4     | reh6.grupo7.ifalara.net |      aaa      |
+| VM2-PC3     | 192.168.23.108/28  |   srv-vm2-pc4     | reh7.grupo7.ifalara.net |      rra      |
+-------------------------------------------------------------------------------------------------
+```
 Antes de configurar as VMs foi necessário acessar a pasta da turma, no caso a pasta 923, que está nos arquivos do sistema (Linux), e para acessar precisamos entrar pelo terminal. Após acessar e configurar, fomos para o VirtualBox, onde criamos uma VM e clonamos nos outros pcs de acordo com o passo a passo, fizemos a instalação do SSH e adicionamos os Users para cada VM.<br/>
-
 ![WhatsApp Image 2022-10-05 at 21 44 06](https://user-images.githubusercontent.com/108026050/194366649-e26f329b-9a3e-432b-b4ed-ac7d8764d345.jpeg)<br/>
 ![WhatsApp Image 2022-10-05 at 21 44 05 (2)](https://user-images.githubusercontent.com/108026050/194366655-42817fcf-28ad-45d7-ba3a-1b2a779b9c0e.jpeg)<br/>
 ![WhatsApp Image 2022-10-05 at 21 44 05 (1)](https://user-images.githubusercontent.com/108026050/194366658-b212373b-65bf-4277-8947-e1be9d5a3074.jpeg)<br/>
